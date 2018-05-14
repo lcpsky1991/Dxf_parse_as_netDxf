@@ -12,7 +12,6 @@ convert Dxf to Json with this tool
         try {
 			FileWriter fw = new FileWriter(file);
 			fw.write(json);
-			logger.debug("parse stop");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
